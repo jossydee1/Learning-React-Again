@@ -1,0 +1,23 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav > h1 {
+    font-weight: 800;
+}
+
+.list-item {
+    display: flex;
+    list-style: none;
+    padding: 2px
+}
+
+.list-item > li {
+    padding: 4px;
+}
